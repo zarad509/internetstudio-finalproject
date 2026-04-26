@@ -9,6 +9,18 @@ const questions = [
       { text: "Working on goals", genre: "Hip Hop" }
     ]
   },
+
+  {
+    question: "What's your ideal vibe?",
+    type: "text",
+    answers: [
+      { text: "Relaxing at home", genre: "Country" },
+      { text: "Partying with friends", genre: "Pop" },
+      { text: "Exploring nature", genre: "Rock" },
+      { text: "Working on goals", genre: "Hip Hop" }
+    ]
+  },
+  
   {
     question: "Pick a room aesthetic:",
     type: "image",
