@@ -1,12 +1,50 @@
+/* ===== Base Layout ===== */
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 40px;
+}
+
 body {
   font-family: Arial, sans-serif;
   background: #111;
   color: white;
-  margin: 0;
-  padding: 40px;
   text-align: center;
 }
 
+/* ===== Optional Background Modes ===== */
+.background {
+  background-image: url(../img/background.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+body.cover {
+  background-color: black;
+  background-image: url(../img/cover.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/* ===== Typography ===== */
+h1 {
+  font-size: 5rem;
+  font-family: "Baskervville SC", serif;
+  text-align: center;
+  color: #eef2db;
+}
+
+p {
+  font-size: 2rem;
+  font-family: "Limelight", sans-serif;
+  text-align: center;
+  color: #eef2db;
+}
+
+/* ===== Quiz Layout ===== */
 #quiz {
   min-height: 70vh;
   display: flex;
@@ -19,6 +57,7 @@ body {
   margin-bottom: 40px;
 }
 
+/* ===== Answer Buttons ===== */
 .answers {
   display: flex;
   flex-direction: column;
@@ -44,6 +83,7 @@ body {
   border-color: #ffcc00;
 }
 
+/* ===== Image Answers ===== */
 .image-option {
   width: 250px;
   height: 250px;
@@ -58,8 +98,65 @@ body {
   transform: scale(1.05);
 }
 
+/* ===== Result Section ===== */
 #result {
   font-size: 3rem;
   margin-top: 50px;
   color: #ffcc00;
+}
+
+#result ul {
+  list-style: none;
+  padding: 0;
+}
+
+#result li {
+  margin: 10px 0;
+}
+
+#result a {
+  color: #ffcc00;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+#result a:hover {
+  text-decoration: underline;
+}
+
+/* ===== Genre Room Styles (for future use) ===== */
+.pop_room,
+.country_room,
+.rock_room,
+.hiphop_room {
+  width: 100%;
+  height: 100%;
+  margin: 10px;
+  background-size: cover;
+  background-position: center;
+  border: 10px solid #8aa8a6;
+  border-radius: 50px;
+}
+
+/* Individual backgrounds */
+.pop_room {
+  background-image: url(../img/pop_room.png);
+}
+
+.country_room {
+  background-image: url(../img/country_room.png);
+}
+
+.rock_room {
+  background-image: url(../img/rock_room.png);
+}
+
+.hiphop_room {
+  background-image: url(../img/hiphop_room.png);
+}
+
+/* Optional layout helper */
+.my-custom-row {
+  width: 100%;
+  height: 600px;
 }
