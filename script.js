@@ -15,10 +15,10 @@ const questions = [
     question: "How do others usually decribe you?",
     type: "text",
     answers: [
-      { text: "Relaxing at home", genre: "Country" },
-      { text: "Partying with friends", genre: "Pop" },
-      { text: "Exploring nature", genre: "Rock" },
-      { text: "Working on goals", genre: "Hip Hop" }
+      { text: "Traditional", genre: "Country" },
+      { text: "Social", genre: "Pop" },
+      { text: "Rebellious", genre: "Rock" },
+      { text: "Confident", genre: "Hip Hop" }
     ]
   },
 
