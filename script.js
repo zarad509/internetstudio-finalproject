@@ -1,6 +1,18 @@
 const questions = [
+  
   {
-    question: "What's your ideal vibe?",
+    question: "Which Room Suits you best?",
+    type: "image",
+    answers: [
+      { img: "https://via.placeholder.com/150?text=Rustic", genre: "Country" },
+      { img: "https://via.placeholder.com/150?text=Colorful", genre: "Pop" },
+      { img: "https://via.placeholder.com/150?text=Edgy", genre: "Rock" },
+      { img: "https://via.placeholder.com/150?text=Modern", genre: "Hip Hop" }
+    ]
+  },
+
+  {
+    question: "How do others usually decribe you?",
     type: "text",
     answers: [
       { text: "Relaxing at home", genre: "Country" },
@@ -11,7 +23,7 @@ const questions = [
   },
 
   {
-    question: "2",
+    question: "Which Guitar Do You Prefer?",
     type: "image",
     answers: [
       { img: "https://via.placeholder.com/150?text=Rustic", genre: "Country" },
@@ -22,28 +34,18 @@ const questions = [
   },
 
   {
-    question: "3",
+    question: "What’s Your Favorite Color?",
     type: "text",
     answers: [
       { text: "country", genre: "Country" },
-      { text: "Ppop", genre: "Pop" },
-      { text: "rock", genre: "Rock" },
-      { text: "hiphop", genre: "Hip Hop" }
-    ]
-  },
-  {
-    question: "4",
-    type: "text",
-    answers: [
-      { text: "country", genre: "Country" },
-      { text: "Ppop", genre: "Pop" },
+      { text: "Pop", genre: "Pop" },
       { text: "rock", genre: "Rock" },
       { text: "hiphop", genre: "Hip Hop" }
     ]
   },
 
   {
-    question: "5",
+    question: "Which Accessory Do You Prefer?",
     type: "image",
     answers: [
       { img: "https://via.placeholder.com/150?text=Rustic", genre: "Country" },
@@ -54,17 +56,7 @@ const questions = [
   },
 
   {
-    question: "6",
-    type: "text",
-    answers: [
-      { text: "country", genre: "Country" },
-      { text: "Ppop", genre: "Pop" },
-      { text: "rock", genre: "Rock" },
-      { text: "hiphop", genre: "Hip Hop" }
-    ]
-  },
-  {
-    question: "7",
+    question: "What Emotion Best Describes You?",
     type: "text",
     answers: [
       { text: "country", genre: "Country" },
@@ -75,7 +67,7 @@ const questions = [
   },
 
   {
-    question: "Pick a room aesthetic:",
+    question: "How do you listen to music?",
     type: "image",
     answers: [
       { img: "https://via.placeholder.com/150?text=Rustic", genre: "Country" },
@@ -86,7 +78,18 @@ const questions = [
   },
 
   {
-    question: "Pick a room aesthetic:",
+    question: "When do you listen to music",
+    type: "text",
+    answers: [
+      { text: "country", genre: "Country" },
+      { text: "Ppop", genre: "Pop" },
+      { text: "rock", genre: "Rock" },
+      { text: "hiphop", genre: "Hip Hop" }
+    ]
+  },
+
+  {
+    question: "Choose An Animal",
     type: "image",
     answers: [
       { img: "https://via.placeholder.com/150?text=Rustic", genre: "Country" },
@@ -96,6 +99,16 @@ const questions = [
     ]
   },
 
+  {
+    question: "What’s your favorite?",
+    type: "text",
+    answers: [
+      { text: "country", genre: "Country" },
+      { text: "Ppop", genre: "Pop" },
+      { text: "rock", genre: "Rock" },
+      { text: "hiphop", genre: "Hip Hop" }
+    ]
+  },
 
 ];
 
